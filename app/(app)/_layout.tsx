@@ -3,6 +3,10 @@ import { Text, View } from 'react-native';
 
 import { useSession } from '../../utils/ctx';
 
+export const unstable_settings = {
+  initialRouteName: '(root)',
+};
+
 export default function AppLayout() {
   const { session, isLoading } = useSession();
 
